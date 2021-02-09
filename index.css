@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto&display=swap');
+#wrapper{
+  border-style:solid;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+  
+  /*background-color:#943126;*/
+  color:lightblue;
+  
+}
+#quote-box{
+  border-style:solid;
+  border-color:black;
+  border-radius:10px;
+  margin:10px;
+  padding:10px;
+    
+  display:flex;
+  flex-direction:column;
+ 
+  justify-content:center;
+    
+}
+.quote-text{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  font-family: 'Redressed', cursive;
+  font-style: italic;
+  font-size:2.5rem;
+}
+
+.quote-author{
+  text-align:right;
+  font-family: 'Roboto', sans-serif;
+   font-size:1.5rem;
+}
+#buttons{
+  /*border-style:none;
+  border-radius:7px;*/
+  margin:10px;
+  padding:10px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-around;
+}
+.button{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  
+ width:25%;
+ height:3rem;
+
+ text-align:center;
+ font-family: 'Roboto', sans-serif;
+ font-size:1rem;
+ 
+ border-style:solid;
+ border-width: 2px;
+ border-radius:5px;
+ border-color:white;
+ background-color:transparent;
+ color: white;
+  
+}
+.button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.button:hover{
+  filter: brightness(2);
+  box-shadow: 0px 0px 2px 1px orangered;
+}
+
+a{
+  font-family: 'Roboto', sans-serif;
+  color:yellow;
+  text-decoration:oldlace;
+  
+}
+@media (min-width: 700px) {
+  #quote-box{
+    width:50%;
+  }
+  }
+
